@@ -1,0 +1,575 @@
+@font-face {
+	font-family: Unica-one !important;
+	src: url(UnicaOne-Regular.ttf);
+}
+
+* {
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+	font-family: Unica One !important;
+	/*    overflow: hidden;*/
+}
+
+textarea {
+	resize: none;
+}
+
+.search {
+	margin-top: -50px;
+	width: 170px;
+	float: right;
+}
+
+.search input {
+	border-radius: 15px;
+	width: 170px;
+}
+
+.main {
+	width: 1200px;
+	margin-left: 170px;
+}
+
+.active {
+	background-color: #fb9084;
+}
+
+.logo {
+	font-family: 'Unica One' !important;
+}
+
+.has-error {
+	border: 1px solid #ff0000;
+}
+
+.logo-photo {
+	margin-bottom: -85px;
+}
+
+.header {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+h2 {
+	width: 70%;
+	margin: .7em auto;
+	overflow: hidden;
+	text-align: center;
+	font-weight: 300;
+	color: black;
+}
+
+h2:before, h2:after {
+	content: "";
+	display: inline-block;
+	width: 50%;
+	margin: 0 .5em 0 -55%;
+	vertical-align: middle;
+	border-bottom: 1px solid;
+}
+
+h2:after {
+	margin: 0 -55% 0 .5em;
+}
+
+.menubar li {
+	width: 208px;
+	height: 25px;
+	float: left;
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.menubar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+.menubar li:hover {
+	background-color: #fb9084;
+}
+
+.slider {
+	overflow: hidden;
+}
+
+.mySlides {
+	display: none;
+}
+
+.animate-right {
+	position: relative;
+	animation: animateright 0.5s
+}
+
+@
+keyframes animateright {from { right:-600px;
+	opacity: 0.6
+}
+
+to {
+	right: 0;
+	opacity: 1
+}
+
+}
+.feature {
+	float: left;
+}
+
+.col-sm-4 {
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+
+.col-sm-4 .hover {
+	position: absolute;
+	opacity: 0;
+}
+
+.col-sm-4:hover .hover {
+	padding: 25px;
+	opacity: 5;
+}
+
+.col-sm-4 img:hover {
+	opacity: 0.6;
+}
+
+.product-image-wrapper {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.single-products {
+	position: relative;
+}
+
+.productinfo h3 {
+	color: #FE980F;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.productinfo p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #BB3F30;
+}
+
+.prod-name {
+	color: black !important
+}
+
+.productinfo img {
+	width: 275px;
+	height: 380px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	margin-top: -85px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+.shop-menu {
+	text-align: center;
+}
+
+.shop-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.shop-menu li {
+	width: 168px;
+	height: 25px;
+	float: left;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.shop-menu li:hover {
+	color: #fb9084;
+	background-color: black;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	position: relative;
+}
+
+.sidebar {
+	float: left;
+	width: 20%;
+}
+
+.feature {
+	float: left;
+	width: 80%;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.signup {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 40%;
+	float: left;
+}
+
+.signup input, textarea {
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.signup input:focus, textarea:focus {
+	border-color: #fb9084;
+}
+
+.signin {
+	align-items: right;
+	float: left;
+	margin: 5px;
+	padding: 15px;
+	width: 40%;
+}
+
+.partition {
+	margin-top: 25px;
+	margin-right: 15px;
+	border: 1px solid black;
+	float: left;
+	height: 570px;
+}
+
+.con-detail {
+	float: left;
+	width: 30%;
+	margin-left: 80px;
+}
+
+textarea {
+	width: 350px;
+}
+
+input {
+	height: 30px;
+	width: 350px;
+}
+
+input[type=submit] {
+	color: black;
+	background-color: #fb9084;
+}
+
+button {
+	color: black;
+	background-color: #fb9000;
+	width: 90px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: #ffffff;
+}
+
+.signin input, textarea {
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.signin input:focus, textarea:focus {
+	border-color: #fb9084;
+}
+
+.footer {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+
+.add-1 {
+	float: left;
+	width: 50%;
+	height: 250px;
+}
+
+.add-2 {
+	float: left;
+	width: 50%;
+	height: 250px;
+}
+
+.add-3 {
+	clear: left;
+	float: left;
+	width: 50%;
+	height: 250px;
+}
+
+.map-button {
+	float: left;
+	clear: left;
+	background-color: #4885ed;
+	color: white;
+	border-radius: 10px;
+	width: 100px;
+	border-style: none;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.col-1, .col-2 {
+	width: 45%;
+	float: left;
+	text-align: justify;
+	padding: 0px 10px;
+}
+
+.footer p {
+	font-family: sans-serif, Arial;
+}
+
+form input {
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.query {
+	float: left;
+	width: 50%;
+}
+
+/*Login Button CSS*/
+.loginBtn {
+	box-sizing: border-box;
+	position: relative;
+	/* width: 13em;  - apply for fixed size */
+	margin: 0.2em;
+	padding: 0 15px 0 46px;
+	border: none;
+	text-align: left;
+	line-height: 34px;
+	white-space: nowrap;
+	border-radius: 0.2em;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.loginBtn:before {
+	content: "";
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 34px;
+	height: 100%;
+}
+
+.loginBtn:focus {
+	outline: none;
+}
+
+.loginBtn:active {
+	box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+.loginBtn--google {
+	font-family: "Roboto", Roboto, arial, sans-serif;
+	background: #DD4B39;
+	width: 175px;
+}
+
+.loginBtn--google:before {
+	border-right: #BB3F30 1px solid;
+	background:
+		url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png')
+		6px 6px no-repeat;
+}
+
+.loginBtn--google:hover, .loginBtn--google:focus {
+	background: #E74B37;
+}
+
+.loginBtn--facebook {
+	background-color: #4C69BA;
+	background-image: linear-gradient(#4C69BA, #3B55A0);
+	text-shadow: 0 -1px 0 #354C8C;
+	width: 200px;
+}
+
+.loginBtn--facebook:before {
+	border-right: #364e92 1px solid;
+	background:
+		url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png')
+		6px 6px no-repeat;
+}
+
+.loginBtn--facebook:hover, .loginBtn--facebook:focus {
+	background-color: #5B7BD5;
+	background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+.item-img {
+	padding: 25px;
+	width: 400px;
+	float: left
+}
+
+.item-det {
+	float: left;
+	padding: 125px;
+}
+
+.mrq {
+	width: 100%;
+	height: 30px;
+	background: black;
+	color: white;
+	float: left;
+	clear: left;
+}
+
+.cat-ul {
+	color: black;
+	text-align: center;
+	list-style: none
+}
+
+#site {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+#content>h1, #checkout-order-form h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#shopping-cart {
+	margin: 1.5em 0;
+}
+
+.shopping-cart {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.shopping-cart th {
+	font-size: 1.3em;
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+}
+
+.shopping-cart td {
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+}
+
+.shopping-cart tr:nth-child(even) {
+	background: #fafafa;
+}
+
+,
+.shopping-cart td.pdelete {
+	text-align: center;
+}
+
+.pdelete a, .pdelete a:hover {
+	color: #c00;
+	text-decoration: none;
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+}
+
+#shopping-cart-actions {
+	margin: 1.5em 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#shopping-cart-actions li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#pricing {
+	padding: 0.5em;
+	margin: 1em 0;
+	background: #fafafa;
+}
+
+#sub-total, #shipping {
+	margin: 1.5em 0;
+	text-align: right;
+}
+
+#sub-total span, #shipping span {
+	margin-left: 1em;
+}
+
+#pricing #sub-total, #pricing #shipping {
+	margin: 1em 0;
+}
+
+#checkout-order-form {
+	margin: 1.5em 0;
+}
+
+.class_button {
+	width: 10px;
+}
+
+.cartButton {
+	width: 1200px;
+}
+
+.divCartButton input {
+	margin-left: 20px;
+	text-align: center;
+	border-radius: 6px;
+	background-color: #fb9084;
+	width: 250px !important;
+	float: left;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+        <link rel="icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="../main.css">
+        <link href="https://fonts.googleapis.com/css?family=Unica+One&amp;subset=latin-ext" rel="stylesheet">
+
+
+
+        <title>Add Product</title>
+
+    </head>
+    <body>
+        <form action="addprod.jsp" enctype="multipart/form-data" method="post" id="add">
+
+            <input type="text" name="name" placeholder="enter name of product"/>
+            <input type="text" name="price" placeholder="enter the price"/>
+            <input type="text" name="detail" placeholder="enter the detail"/>
+            <input type="file" name="ImageFile" id="ImageFile" placeholder="enter the image url"/>
+            <select name="cat">
+                <option value="men">Men</option>
+                <option value="woman">Woman</option>
+                <option value="kids">Kids</option>
+            </select>
+            <select name="type">
+                <option value="accessories">Accessories</option>
+                <option value="clothes">Clothes</option>
+                <option value="footwear">Footwear</option>
+            </select>
+            <select name="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <input type="submit">
+            <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+            <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+            <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js"></script>
+            <script src="JS/javascript.js"></script>
+            <script src="JS/server.js"></script>
+        </form>
+
+    </body>
+</html>
